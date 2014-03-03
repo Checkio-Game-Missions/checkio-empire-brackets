@@ -18,7 +18,8 @@
 </div>
 
 <p>
-    You are given an expression with numbers, brackets and operators. For this task only the brackets matter. Brackets come in three flavors: "{}" "()" or "[]". 
+    You are given an expression with numbers, brackets and operators.
+    For this task only the brackets matter. Brackets come in three flavors: "{}" "()" or "[]".
     Brackets are used to determine scope or to restrict some expression. 
     If a bracket is open, then it must be closed with a closing bracket of the same type. 
     The scope of a bracket must not intersected by another bracket. 
@@ -36,10 +37,15 @@
 checkio("{[(3+1)+2]+}") == True
 checkio("(3+{1-1)}") == False
 checkio("[1+1]+(2*2)-{3/3}") == True
-checkio("(({[(((1)-2)+3)-3]/3}-3)") == False</pre>
+checkio("(({[(((1)-2)+3)-3]/3}-3)") == False
+checkio("2+3") == True
+</pre>
 </div>
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
     Math software. IDE for programming.
 </p>
+
+<p><strong>Precondition: </strong>There are only brackets ("{}" "()" or "[]"), digits or operators ("+" "-" "*" "/").<br>
+0 < |expression| < 10<sup>3</sup></p>
