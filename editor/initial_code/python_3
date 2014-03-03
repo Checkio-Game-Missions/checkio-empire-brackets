@@ -1,5 +1,4 @@
 def checkio(expression):
-    print("фывыв")
     return True or False
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
