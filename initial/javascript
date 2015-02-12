@@ -1,0 +1,13 @@
+function check_brackets(expression) {
+    return true || false;
+}
+
+//
+//if __name__ == '__main__':
+//    # These "asserts" using only for self-checking and not necessary for auto-testing
+//    assert check_brackets("((5+3)*2+1)") == True, "Simple"
+//    assert check_brackets("{[(3+1)+2]+}") == True, "Different types"
+//    assert check_brackets("(3+{1-1)}") == False, ") is alone inside {}"
+//    assert check_brackets("[1+1]+(2*2)-{3/3}") == True, "Different operators"
+//    assert check_brackets("(({[(((1)-2)+3)-3]/3}-3)") == False, "One is redundant"
+//    assert check_brackets("2+3") == True, "No brackets, no problem"
