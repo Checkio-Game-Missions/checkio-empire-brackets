@@ -1,6 +1,6 @@
-Correct orders are most important part of victory.
-But sometimes redundant or missing bracket can change whole algorithm.
-We should be prepared.
+processing orders correctly is the key to victory in battle.
+However, sometimes redundant or missing brackets can change the whole algorithm.
+We should be prepared for this scenario.
 
 You are given an expression with numbers, brackets and operators.
 For this task only the brackets matter. Brackets come in three flavors: "{}" "()" or "[]".
