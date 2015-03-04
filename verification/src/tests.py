@@ -1,5 +1,5 @@
 TESTS = {
-    "Level_1": [
+    "Rank_1": [
         {
             "input": "((5+3)*2+1)",
             "answer": True
